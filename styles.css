@@ -87,13 +87,14 @@ font-family: 'Source Code Pro', monospace;
 
 
 .logo-wrapper img {
-  width: 50%;
+  width: 10
+0%;
   margin-bottom: 20px;
 }
 
 .portfolio-img-text-wrapper:hover .subtitle{
   font-weight: 600;
-  color: lightseagreen;
+  color: white;
 }
 
 .portfolio-img-text-wrapper .subtitle{
@@ -121,5 +122,5 @@ font-family: 'Source Code Pro', monospace;
 }
 
 .profile-content-wrapper h1{
-  color: lightseagreen;
+  color: black;
 }
