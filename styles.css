@@ -87,11 +87,9 @@ font-family: 'Source Code Pro', monospace;
 
 
 .logo-wrapper img {
-  width: 50%;
+  width: 100%;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+align-items: center;
 }
 
 .portfolio-img-text-wrapper:hover .subtitle{
