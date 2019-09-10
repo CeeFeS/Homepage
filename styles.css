@@ -127,7 +127,7 @@ align-items: center;
 
 .project-items-wrapper{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 .project-item-wrapper-1{
   background-color: #689f38;
@@ -184,8 +184,17 @@ summary{
   color: white;
 }
 
-.project-item-details-wrapper{
-  position: relative;
-  margin-left: 40px;
-  margin-right: 40px;
+
+
+#accordion div {
+   background-color: #b2ce8f;
+   height:50px;
+   transition: height 1s ease-in-out;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+#accordion div:hover {
+   background-color: #efd070;
+   height: 140px;
 }
